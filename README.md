@@ -272,7 +272,7 @@ npm start       # Compile et affiche les instructions
 
 ## 🔗 Liens utiles
 
-- **Dépôt GitHub** : [votre-url-github]
+- **Dépôt GitHub** : [https://github.com/KingSnyf/event-app.git]
 - **Documentation TypeScript** : https://www.typescriptlang.org/
 - **Consignes du projet** : Voir PDF fourni par le professeur
 
@@ -283,5 +283,6 @@ npm start       # Compile et affiche les instructions
 **Enseignant : Daniel KINKEU**
 
 ---
+
 
 *"L'école ce n'est pas le piège, ensemble luttons contre le travail de la dernière minute"* 😊
