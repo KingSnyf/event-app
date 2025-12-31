@@ -1,0 +1,1 @@
+{"version":3,"file":"Registration.js","sourceRoot":"","sources":["../../src/models/Registration.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,YAAY;IAKvB,YAAY,OAAe,EAAE,MAAc;QACzC,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;QACvB,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;QACrB,IAAI,CAAC,eAAe,GAAG,IAAI,IAAI,EAAE,CAAC;IACpC,CAAC;CACF"}

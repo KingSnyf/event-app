@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion d'Événements</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🎉 Gestion d'Événements</h1>
+      <p>Créez et gérez vos événements facilement</p>
+      <button id="btn-reset" class="btn-reset" style="margin-top: 1rem;">🔄 Réinitialiser les données</button>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="create-section">
+      <h2>Créer un nouvel événement</h2>
+      <form id="create-event-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="event-titre">Titre *</label>
+            <input type="text" id="event-titre" placeholder="Ex: Conférence Tech 2025" required>
+          </div>
+          <div class="form-group">
+            <label for="event-categorie">Catégorie *</label>
+            <select id="event-categorie" required>
+              <option value="conférence">Conférence</option>
+              <option value="sport">Sport</option>
+              <option value="atelier">Atelier</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="event-description">Description *</label>
+          <textarea id="event-description" rows="3" placeholder="Décrivez votre événement..." required></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="event-date">Date *</label>
+            <input type="date" id="event-date" required>
+          </div>
+          <div class="form-group">
+            <label for="event-lieu">Lieu *</label>
+            <input type="text" id="event-lieu" placeholder="Ex: Auditorium Principal" required>
+          </div>
+          <div class="form-group">
+            <label for="event-capacite">Capacité maximale *</label>
+            <input type="number" id="event-capacite" min="1" placeholder="Ex: 100" required>
+          </div>
+        </div>
+        <button type="submit" class="btn-primary">Créer l'événement</button>
+      </form>
+    </section>
+
+    
+    <section class="events-section">
+      <div class="section-header">
+        <h2>Liste des événements</h2>
+        <div class="filter-controls">
+          <label for="filter-categorie">Filtrer par catégorie:</label>
+          <select id="filter-categorie">
+            <option value="toutes">Toutes les catégories</option>
+            <option value="conférence">Conférence</option>
+            <option value="sport">Sport</option>
+            <option value="atelier">Atelier</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+      </div>
+      <div id="events-list" class="events-grid">
+        
+      </div>
+    </section>
+  </main>
+
+  
+  <div id="event-detail-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div id="modal-event-content"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Application de Gestion d'Événements - Projet TypeScript Licence 2</p>
+    </div>
+  </footer>
+
+  <script type="module" src="dist/main.js"></script>
+</body>
+</html>

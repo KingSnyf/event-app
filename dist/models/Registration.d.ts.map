@@ -1,0 +1,1 @@
+{"version":3,"file":"Registration.d.ts","sourceRoot":"","sources":["../../src/models/Registration.ts"],"names":[],"mappings":"AAAA,qBAAa,YAAY;IAEd,OAAO,EAAE,MAAM;IACf,MAAM,EAAE,MAAM;IACd,eAAe,EAAE,IAAI;gBAFrB,OAAO,EAAE,MAAM,EACf,MAAM,EAAE,MAAM,EACd,eAAe,GAAE,IAAiB;CAE5C"}
